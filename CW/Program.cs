@@ -54,7 +54,7 @@ string[] CreateThreeCharArray(string[] arr)
             count++;
        }
     }
-    
+
     return result;
 }
 
