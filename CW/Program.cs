@@ -54,8 +54,15 @@ string[] CreateThreeCharArray(string[] arr)
             count++;
        }
     }
-
+    
     return result;
 }
 
-
+int size = InputNum("Введите размер массива: ");
+string[] array = CreateArray(size);
+FillArray(array);
+System.Console.WriteLine();
+PrintArray(array);
+System.Console.WriteLine();
+string[] resultArray = CreateThreeCharArray(array);
+PrintArray(resultArray);
